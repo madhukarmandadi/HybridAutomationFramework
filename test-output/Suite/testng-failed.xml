@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="4" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="testcases.LoginSauseLabsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginTest2"/>
+          <include name="openBrowser"/>
+          <include name="loginTest5"/>
+          <include name="LogoutTest4"/>
+          <include name="loginTest6"/>
+          <include name="initReports"/>
+          <include name="loginTest3"/>
+          <include name="flush"/>
+          <include name="loginTest"/>
+          <include name="LogoutTest8"/>
+          <include name="loginTest7"/>
+        </methods>
+      </class> <!-- testcases.LoginSauseLabsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
