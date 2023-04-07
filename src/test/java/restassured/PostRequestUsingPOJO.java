@@ -94,7 +94,7 @@ public class PostRequestUsingPOJO {
 	
 	@Test
 	public void testPojoPostWithLomback() throws IOException {
-		Employee employee=new Employee("Madhukar", "Test Architect");
+		Employee employee=new Employee();
 
 		Response reponse = given()
 				.header("content-type", ContentType.JSON)

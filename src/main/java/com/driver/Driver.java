@@ -25,6 +25,7 @@ public class Driver {
 				WebDriverManager.chromedriver().create();
 				ChromeOptions chromeOptions = new ChromeOptions();
 				chromeOptions.addArguments("--disable-notifications");
+				chromeOptions.addArguments("--remote-allow-origins=*");
 				driver = new ChromeDriver(chromeOptions);
 				break;
 			case "edge":

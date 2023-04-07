@@ -5,7 +5,7 @@ import com.google.gson.Gson;
 public class Runner {
 	
 	public static void main(String[] args) {
-		Employee emp=new Employee("Madhukar", 38,"Hyderabad");
+		Employee emp=new Employee();
 		//System.out.println(emp);
 		
 		Gson gson=new Gson();
