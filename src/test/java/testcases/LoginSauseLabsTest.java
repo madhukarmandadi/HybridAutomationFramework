@@ -29,6 +29,7 @@ public class LoginSauseLabsTest extends BaseTest {
 		sauseLabsHomePage.clickBurgerMenu().verifyLogin().clickLogout();
 		
 		ExtentLogger.pass("Login 1 test passeed");
+		
 	}
 
 	
